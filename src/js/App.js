@@ -21,6 +21,18 @@ export default function App() {
                     <li>My advisor is <Link text="Bhuwan Dhingra" href="https://users.cs.duke.edu/~bdhingra/" /> at the Duke NLP group.</li>
                 </ul>
             </Box>
+            <Box>
+                <h3>Contact Things:</h3>
+                <ul>
+                    <li>{"dev (dot) seth (at) duke (dot) edu"}</li>
+                </ul>
+            </Box>
+            <Box>
+                <h3>More Things:</h3>
+                <ul>
+                    <li>Coming Soon</li>
+                </ul>
+            </Box>
             {/* <Box>
                 <h3>More things:</h3>
                 <ul>
