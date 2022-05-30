@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    padding: calc(min(max(20px, 10%), 100px));
+    margin: 0;
+    // width: 100%;
+    // height: 100%;
+    font-family: 'San Francisco', Roboto;
+    background-color: #ffffff;
+}
+
+.App {
+    box-sizing: content-box;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.intro {
+    text-align: center;
+    font-family: 'San Francisco', Roboto;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #26374b;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio {
+}

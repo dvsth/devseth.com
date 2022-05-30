@@ -1,0 +1,35 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 0;
+  padding: min(max(20px, 10%), 100px);
+  font-family: San Francisco, Roboto;
+}
+
+.App {
+  box-sizing: content-box;
+  flex-flow: column;
+  display: flex;
+}
+
+.intro {
+  text-align: center;
+  color: #26374b;
+  margin-bottom: 15px;
+  font-family: San Francisco, Roboto;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.profile {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.e378193d.css.map */
