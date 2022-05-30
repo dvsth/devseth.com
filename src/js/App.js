@@ -16,8 +16,8 @@ export default function App() {
                 <h3>Academic Things:</h3>
                 <ul>
                     <li>I'm studying abroad! Where: <b>U. of Oxford</b>. What: <b>CS and philosophy</b>.</li>
-                    <li>I'm a senior at Duke. Graduating Dec '22.</li>
-                    <li>My research interest is in natural language processing, especially the differences in human and machine cognition of language. I am interested in how we can work collaboratively with machines.</li>
+                    <li>I'm a <b>senior at Duke</b>. Graduating Dec '22.</li>
+                    <li>My research interest is in <b>natural language processing</b>, especially the differences in human and machine cognition of language. I am interested in how we can work collaboratively with machines.</li>
                     <li>My advisor is <Link text="Bhuwan Dhingra" href="https://users.cs.duke.edu/~bdhingra/" /> at the Duke NLP group.</li>
                 </ul>
             </Box>
