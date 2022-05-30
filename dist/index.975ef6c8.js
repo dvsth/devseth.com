@@ -27064,15 +27064,35 @@ function App() {
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "I'm a senior at Duke. Graduating Dec '22."
-                            }, void 0, false, {
+                                children: [
+                                    "I'm a ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                        children: "senior at Duke"
+                                    }, void 0, false, {
+                                        fileName: "src/js/App.js",
+                                        lineNumber: 19,
+                                        columnNumber: 31
+                                    }, this),
+                                    ". Graduating Dec '22."
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/js/App.js",
                                 lineNumber: 19,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "My research interest is in natural language processing, especially the differences in human and machine cognition of language. I am interested in how we can work collaboratively with machines."
-                            }, void 0, false, {
+                                children: [
+                                    "My research interest is in ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                        children: "natural language processing"
+                                    }, void 0, false, {
+                                        fileName: "src/js/App.js",
+                                        lineNumber: 20,
+                                        columnNumber: 52
+                                    }, this),
+                                    ", especially the differences in human and machine cognition of language. I am interested in how we can work collaboratively with machines."
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/js/App.js",
                                 lineNumber: 20,
                                 columnNumber: 21
@@ -27110,64 +27130,80 @@ function App() {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                        children: "More things:"
+                        children: "Travel Things:"
                     }, void 0, false, {
                         fileName: "src/js/App.js",
                         lineNumber: 25,
                         columnNumber: 17
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: [
-                                "In the past, I've worked with ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Link, {
-                                    text: "Bill Seaman",
-                                    href: "https://billseaman.com/"
-                                }, void 0, false, {
-                                    fileName: "src/js/App.js",
-                                    lineNumber: 27,
-                                    columnNumber: 55
-                                }, this),
-                                ", ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Link, {
-                                    text: "Missy Cummings",
-                                    href: "https://pratt.duke.edu/faculty/missy-cummings"
-                                }, void 0, false, {
-                                    fileName: "src/js/App.js",
-                                    lineNumber: 27,
-                                    columnNumber: 115
-                                }, this),
-                                ", and ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Link, {
-                                    text: "Bhargav Vaidya",
-                                    href: "https://www.iiti.ac.in/people/~bvaidya/"
-                                }, void 0, false, {
-                                    fileName: "src/js/App.js",
-                                    lineNumber: 27,
-                                    columnNumber: 204
-                                }, this),
-                                "."
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/js/App.js",
-                            lineNumber: 27,
-                            columnNumber: 21
-                        }, this)
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+                        className: "map",
+                        src: "https://www.google.com/maps/d/u/1/embed?mid=1tCQAoqHOTlCBsCJsQyWEszxX-pWjWsS6&ehbc=2E312F"
                     }, void 0, false, {
                         fileName: "src/js/App.js",
                         lineNumber: 26,
                         columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "src/js/App.js",
-                        lineNumber: 29,
-                        columnNumber: 17
-                    }, this),
-                    "I have previously built (and shut down) a human-machine collaborative workspace."
+                    }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/App.js",
                 lineNumber: 24,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: "Contact Things:"
+                    }, void 0, false, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 29,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "dev (dot) seth (at) duke (dot) edu"
+                        }, void 0, false, {
+                            fileName: "src/js/App.js",
+                            lineNumber: 31,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 30,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/js/App.js",
+                lineNumber: 28,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: "More Things:"
+                    }, void 0, false, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 35,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: "Coming Soon"
+                        }, void 0, false, {
+                            fileName: "src/js/App.js",
+                            lineNumber: 37,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 36,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/js/App.js",
+                lineNumber: 34,
                 columnNumber: 13
             }, this)
         ]
@@ -27185,7 +27221,7 @@ function Link({ text , href  }) {
         children: text
     }, void 0, false, {
         fileName: "src/js/App.js",
-        lineNumber: 38,
+        lineNumber: 54,
         columnNumber: 9
     }, this);
 }
@@ -27196,7 +27232,7 @@ function Box({ children  }) {
         children: children
     }, void 0, false, {
         fileName: "src/js/App.js",
-        lineNumber: 44,
+        lineNumber: 60,
         columnNumber: 9
     }, this);
 }

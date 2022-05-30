@@ -64,6 +64,11 @@ b {
   width: 100%;
 }
 
+.box .map {
+  width: 100%;
+  height: 300px;
+}
+
 @keyframes rotate {
   0% {
     transform: rotate(20deg);

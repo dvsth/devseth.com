@@ -9,7 +9,7 @@ export default function App() {
                     Hello! <span className='wave'>🖖</span>I'm Dev.
                 </div>
                 <div className='profile'>
-                    <img src={logo} alt='Dev' className='portrait'/>
+                    <img src={logo} alt='Dev' className='portrait' />
                 </div>
             </div>
             <Box>
@@ -20,6 +20,10 @@ export default function App() {
                     <li>My research interest is in <b>natural language processing</b>, especially the differences in human and machine cognition of language. I am interested in how we can work collaboratively with machines.</li>
                     <li>My advisor is <Link text="Bhuwan Dhingra" href="https://users.cs.duke.edu/~bdhingra/" /> at the Duke NLP group.</li>
                 </ul>
+            </Box>
+            <Box>
+                <h3>Travel Things:</h3>
+                <iframe className="map" src="https://www.google.com/maps/d/u/1/embed?mid=1tCQAoqHOTlCBsCJsQyWEszxX-pWjWsS6&ehbc=2E312F"></iframe>
             </Box>
             <Box>
                 <h3>Contact Things:</h3>
