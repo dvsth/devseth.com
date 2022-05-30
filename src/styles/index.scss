@@ -61,7 +61,7 @@ b {
     &.introbox {
         padding: 0;
         padding-top: 20px;
-        width: 500px;
+        width: calc(min(500px, 90vw));
         height: auto;
     }
 }
