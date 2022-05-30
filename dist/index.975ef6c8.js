@@ -26984,36 +26984,192 @@ function App() {
         className: "App",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "intro",
-                children: "Hey! I'm Dev Seth."
-            }, void 0, false, {
+                className: "box introbox",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "intro",
+                        children: [
+                            "Hello! ",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "wave",
+                                children: "\uD83D\uDD96"
+                            }, void 0, false, {
+                                fileName: "src/js/App.js",
+                                lineNumber: 9,
+                                columnNumber: 28
+                            }, this),
+                            "I'm Dev."
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "profile",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: logo,
+                            alt: "Dev",
+                            style: {
+                                maxWidth: "500px"
+                            }
+                        }, void 0, false, {
+                            fileName: "src/js/App.js",
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 11,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/js/App.js",
                 lineNumber: 7,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "profile",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: logo,
-                    alt: "Dev",
-                    style: {
-                        maxWidth: "500px"
-                    }
-                }, void 0, false, {
-                    fileName: "src/js/App.js",
-                    lineNumber: 13,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: "Academic Things:"
+                    }, void 0, false, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 18,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    "I'm studying abroad! Where: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                        children: "U. of Oxford"
+                                    }, void 0, false, {
+                                        fileName: "src/js/App.js",
+                                        lineNumber: 20,
+                                        columnNumber: 53
+                                    }, this),
+                                    ". What: ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                                        children: "CS and philosophy"
+                                    }, void 0, false, {
+                                        fileName: "src/js/App.js",
+                                        lineNumber: 20,
+                                        columnNumber: 80
+                                    }, this),
+                                    "."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/js/App.js",
+                                lineNumber: 20,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "I'm a senior at Duke. Graduating Dec '22."
+                            }, void 0, false, {
+                                fileName: "src/js/App.js",
+                                lineNumber: 21,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "My research interest is in natural language processing, especially the differences in human and machine cognition of language. I am interested in how we can work collaboratively with machines."
+                            }, void 0, false, {
+                                fileName: "src/js/App.js",
+                                lineNumber: 22,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: [
+                                    "My advisor is ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Link, {
+                                        text: "Bhuwan Dhingra",
+                                        href: "https://users.cs.duke.edu/~bdhingra/"
+                                    }, void 0, false, {
+                                        fileName: "src/js/App.js",
+                                        lineNumber: 23,
+                                        columnNumber: 39
+                                    }, this),
+                                    " at the Duke NLP group."
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/js/App.js",
+                                lineNumber: 23,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 19,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/js/App.js",
-                lineNumber: 10,
+                lineNumber: 17,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "bio"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: "More things:"
+                    }, void 0, false, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 27,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: [
+                                "In the past, I've worked with ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Link, {
+                                    text: "Bill Seaman",
+                                    href: "https://billseaman.com/"
+                                }, void 0, false, {
+                                    fileName: "src/js/App.js",
+                                    lineNumber: 29,
+                                    columnNumber: 55
+                                }, this),
+                                ", ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Link, {
+                                    text: "Missy Cummings",
+                                    href: "https://pratt.duke.edu/faculty/missy-cummings"
+                                }, void 0, false, {
+                                    fileName: "src/js/App.js",
+                                    lineNumber: 29,
+                                    columnNumber: 115
+                                }, this),
+                                ", and ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Link, {
+                                    text: "Bhargav Vaidya",
+                                    href: "https://www.iiti.ac.in/people/~bvaidya/"
+                                }, void 0, false, {
+                                    fileName: "src/js/App.js",
+                                    lineNumber: 29,
+                                    columnNumber: 204
+                                }, this),
+                                "."
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/js/App.js",
+                            lineNumber: 29,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 28,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/js/App.js",
+                        lineNumber: 31,
+                        columnNumber: 17
+                    }, this),
+                    "I have previously built (and shut down) a human-machine collaborative workspace."
+                ]
+            }, void 0, true, {
                 fileName: "src/js/App.js",
-                lineNumber: 15,
+                lineNumber: 26,
                 columnNumber: 13
             }, this)
         ]
@@ -27025,15 +27181,76 @@ function App() {
 }
 exports.default = App;
 _c = App;
-var _c;
+function Link({ text , href  }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+        href: href,
+        children: text
+    }, void 0, false, {
+        fileName: "src/js/App.js",
+        lineNumber: 40,
+        columnNumber: 9
+    }, this);
+}
+_c1 = Link;
+function Box({ children  }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "box",
+        children: children
+    }, void 0, false, {
+        fileName: "src/js/App.js",
+        lineNumber: 46,
+        columnNumber: 9
+    }, this);
+}
+_c2 = Box;
+var _c, _c1, _c2;
 $RefreshReg$(_c, "App");
+$RefreshReg$(_c1, "Link");
+$RefreshReg$(_c2, "Box");
 
   $parcel$ReactRefreshHelpers$90b2.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","27955ae781fd42a9":"gmENJ"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","27955ae781fd42a9":"gmENJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gmENJ":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "1.62e19b7e.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27183,43 +27400,6 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"gmENJ":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "1.62e19b7e.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}]},["1xC6H","1RB6v","8lqZg"], "8lqZg", "parcelRequiree8da")
+},{"react-refresh/runtime":"786KC"}]},["1xC6H","1RB6v","8lqZg"], "8lqZg", "parcelRequiree8da")
 
 //# sourceMappingURL=index.975ef6c8.js.map

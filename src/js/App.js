@@ -4,29 +4,47 @@ const logo = new URL('../assets/1.png', import.meta.url);
 export default function App() {
     return (
         <div className="App">
-            <div className='intro'>
-                Hey! I'm Dev Seth.
+            <div className='box introbox'>
+                <div className='intro'>
+                    Hello! <span className='wave'>🖖</span>I'm Dev.
+                </div>
+                <div className='profile'>
+                    {// limit max width of image to either 500px or 100%
+                    }
+                    <img src={logo} alt='Dev' style={{ maxWidth: '500px' }} />
+                </div>
             </div>
-            <div className='profile'>
-                {// limit max width of image to either 500px or 100%
-                }
-                <img src={logo} alt='Dev' style={{ maxWidth: '500px' }} />
-            </div>
-            <div className='bio'>
-                I'm currently spending a year studying Computer Science and Philosophy at the University of Oxford. I'm a full-time undergrad at Duke University.
-                My research interest is in natural language processing, especially human-machine collaboration. My advisor is 
-                <Link text="Bhuwan Dhingra" href="https://users.cs.duke.edu/~bdhingra/"/>
-                <Link text="Bhuwan Dhingra" href="https://users.cs.duke.edu/~bdhingra/"/>
-                <Link text="Bhargav Vaidya" href="https://www.iiti.ac.in/people/~bvaidya/"/>
-                Bhuwan Dhingra at the Duke NLP group. In the past, I've worked with Bill Seaman, Missy Cummings, and.
+            <Box>
+                <h3>Academic Things:</h3>
+                <ul>
+                    <li>I'm studying abroad! Where: <b>U. of Oxford</b>. What: <b>CS and philosophy</b>.</li>
+                    <li>I'm a senior at Duke. Graduating Dec '22.</li>
+                    <li>My research interest is in natural language processing, especially the differences in human and machine cognition of language. I am interested in how we can work collaboratively with machines.</li>
+                    <li>My advisor is <Link text="Bhuwan Dhingra" href="https://users.cs.duke.edu/~bdhingra/" /> at the Duke NLP group.</li>
+                </ul>
+            </Box>
+            <Box>
+                <h3>More things:</h3>
+                <ul>
+                    <li>In the past, I've worked with <Link text="Bill Seaman" href="https://billseaman.com/" />, <Link text="Missy Cummings" href="https://pratt.duke.edu/faculty/missy-cummings" />, and <Link text="Bhargav Vaidya" href="https://www.iiti.ac.in/people/~bvaidya/" />.</li>
+                </ul>
+                <br />
                 I have previously built (and shut down) a human-machine collaborative workspace.
-            </div>
-        </div>
+            </Box >
+        </div >
     );
 }
 
 function Link({ text, href }) {
     return (
         <a href={href}>{text}</a>
+    );
+}
+
+function Box({ children }) {
+    return (
+        <div className='box'>
+            {children}
+        </div>
     );
 }
