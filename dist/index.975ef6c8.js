@@ -27010,12 +27010,10 @@ function App() {
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: logo,
                             alt: "Dev",
-                            style: {
-                                maxWidth: "500px"
-                            }
+                            className: "portrait"
                         }, void 0, false, {
                             fileName: "src/js/App.js",
-                            lineNumber: 14,
+                            lineNumber: 12,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
@@ -27035,7 +27033,7 @@ function App() {
                         children: "Academic Things:"
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 18,
+                        lineNumber: 16,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27047,7 +27045,7 @@ function App() {
                                         children: "U. of Oxford"
                                     }, void 0, false, {
                                         fileName: "src/js/App.js",
-                                        lineNumber: 20,
+                                        lineNumber: 18,
                                         columnNumber: 53
                                     }, this),
                                     ". What: ",
@@ -27055,28 +27053,28 @@ function App() {
                                         children: "CS and philosophy"
                                     }, void 0, false, {
                                         fileName: "src/js/App.js",
-                                        lineNumber: 20,
+                                        lineNumber: 18,
                                         columnNumber: 80
                                     }, this),
                                     "."
                                 ]
                             }, void 0, true, {
                                 fileName: "src/js/App.js",
-                                lineNumber: 20,
+                                lineNumber: 18,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: "I'm a senior at Duke. Graduating Dec '22."
                             }, void 0, false, {
                                 fileName: "src/js/App.js",
-                                lineNumber: 21,
+                                lineNumber: 19,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: "My research interest is in natural language processing, especially the differences in human and machine cognition of language. I am interested in how we can work collaboratively with machines."
                             }, void 0, false, {
                                 fileName: "src/js/App.js",
-                                lineNumber: 22,
+                                lineNumber: 20,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -27087,26 +27085,26 @@ function App() {
                                         href: "https://users.cs.duke.edu/~bdhingra/"
                                     }, void 0, false, {
                                         fileName: "src/js/App.js",
-                                        lineNumber: 23,
+                                        lineNumber: 21,
                                         columnNumber: 39
                                     }, this),
                                     " at the Duke NLP group."
                                 ]
                             }, void 0, true, {
                                 fileName: "src/js/App.js",
-                                lineNumber: 23,
+                                lineNumber: 21,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/js/App.js",
-                        lineNumber: 19,
+                        lineNumber: 17,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/js/App.js",
-                lineNumber: 17,
+                lineNumber: 15,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
@@ -27115,7 +27113,7 @@ function App() {
                         children: "More things:"
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 27,
+                        lineNumber: 25,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27127,7 +27125,7 @@ function App() {
                                     href: "https://billseaman.com/"
                                 }, void 0, false, {
                                     fileName: "src/js/App.js",
-                                    lineNumber: 29,
+                                    lineNumber: 27,
                                     columnNumber: 55
                                 }, this),
                                 ", ",
@@ -27136,7 +27134,7 @@ function App() {
                                     href: "https://pratt.duke.edu/faculty/missy-cummings"
                                 }, void 0, false, {
                                     fileName: "src/js/App.js",
-                                    lineNumber: 29,
+                                    lineNumber: 27,
                                     columnNumber: 115
                                 }, this),
                                 ", and ",
@@ -27145,31 +27143,31 @@ function App() {
                                     href: "https://www.iiti.ac.in/people/~bvaidya/"
                                 }, void 0, false, {
                                     fileName: "src/js/App.js",
-                                    lineNumber: 29,
+                                    lineNumber: 27,
                                     columnNumber: 204
                                 }, this),
                                 "."
                             ]
                         }, void 0, true, {
                             fileName: "src/js/App.js",
-                            lineNumber: 29,
+                            lineNumber: 27,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 28,
+                        lineNumber: 26,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                         fileName: "src/js/App.js",
-                        lineNumber: 31,
+                        lineNumber: 29,
                         columnNumber: 17
                     }, this),
                     "I have previously built (and shut down) a human-machine collaborative workspace."
                 ]
             }, void 0, true, {
                 fileName: "src/js/App.js",
-                lineNumber: 26,
+                lineNumber: 24,
                 columnNumber: 13
             }, this)
         ]
@@ -27187,7 +27185,7 @@ function Link({ text , href  }) {
         children: text
     }, void 0, false, {
         fileName: "src/js/App.js",
-        lineNumber: 40,
+        lineNumber: 38,
         columnNumber: 9
     }, this);
 }
@@ -27198,7 +27196,7 @@ function Box({ children  }) {
         children: children
     }, void 0, false, {
         fileName: "src/js/App.js",
-        lineNumber: 46,
+        lineNumber: 44,
         columnNumber: 9
     }, this);
 }

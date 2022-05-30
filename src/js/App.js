@@ -9,9 +9,7 @@ export default function App() {
                     Hello! <span className='wave'>🖖</span>I'm Dev.
                 </div>
                 <div className='profile'>
-                    {// limit max width of image to either 500px or 100%
-                    }
-                    <img src={logo} alt='Dev' style={{ maxWidth: '500px' }} />
+                    <img src={logo} alt='Dev' className='portrait'/>
                 </div>
             </div>
             <Box>
@@ -23,14 +21,14 @@ export default function App() {
                     <li>My advisor is <Link text="Bhuwan Dhingra" href="https://users.cs.duke.edu/~bdhingra/" /> at the Duke NLP group.</li>
                 </ul>
             </Box>
-            <Box>
+            {/* <Box>
                 <h3>More things:</h3>
                 <ul>
                     <li>In the past, I've worked with <Link text="Bill Seaman" href="https://billseaman.com/" />, <Link text="Missy Cummings" href="https://pratt.duke.edu/faculty/missy-cummings" />, and <Link text="Bhargav Vaidya" href="https://www.iiti.ac.in/people/~bvaidya/" />.</li>
                 </ul>
                 <br />
                 I have previously built (and shut down) a human-machine collaborative workspace.
-            </Box >
+            </Box > */}
         </div >
     );
 }
