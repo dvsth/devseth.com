@@ -26978,276 +26978,138 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-const logo = new URL(require("27955ae781fd42a9"));
+var _data = require("./data");
+var _dataDefault = parcelHelpers.interopDefault(_data);
+var _s = $RefreshSig$();
+const logo = new URL(require("f31f6cde231a8104"));
 function App() {
+    _s();
+    const [expanded, setExpanded] = (0, _reactDefault.default).useState(0);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "App",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "box introbox",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "intro",
-                        children: [
-                            "Hello! ",
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                className: "wave",
-                                children: "\uD83D\uDD96"
-                            }, void 0, false, {
+                className: "intro-container",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "box introbox",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "intro",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                children: [
+                                    "Hello! ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "wave",
+                                        children: "\uD83D\uDD96"
+                                    }, void 0, false, {
+                                        fileName: "src/js/App.js",
+                                        lineNumber: 15,
+                                        columnNumber: 36
+                                    }, this),
+                                    " I'm Dev."
+                                ]
+                            }, void 0, true, {
                                 fileName: "src/js/App.js",
-                                lineNumber: 9,
-                                columnNumber: 28
-                            }, this),
-                            "I'm Dev."
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/js/App.js",
-                        lineNumber: 8,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "profile",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: logo,
-                            alt: "Dev",
-                            className: "portrait"
+                                lineNumber: 14,
+                                columnNumber: 25
+                            }, this)
                         }, void 0, false, {
                             fileName: "src/js/App.js",
-                            lineNumber: 12,
+                            lineNumber: 13,
                             columnNumber: 21
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/js/App.js",
-                        lineNumber: 11,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/js/App.js",
-                lineNumber: 7,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                        children: "Academic Things:"
-                    }, void 0, false, {
-                        fileName: "src/js/App.js",
-                        lineNumber: 16,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: [
-                                    "I'm studying abroad! Where: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                        children: "U. of Oxford"
-                                    }, void 0, false, {
-                                        fileName: "src/js/App.js",
-                                        lineNumber: 18,
-                                        columnNumber: 53
-                                    }, this),
-                                    ". What: ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                        children: "CS and philosophy"
-                                    }, void 0, false, {
-                                        fileName: "src/js/App.js",
-                                        lineNumber: 18,
-                                        columnNumber: 80
-                                    }, this),
-                                    "."
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/js/App.js",
-                                lineNumber: 18,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: [
-                                    "I'm a ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                        children: "senior at Duke"
-                                    }, void 0, false, {
-                                        fileName: "src/js/App.js",
-                                        lineNumber: 19,
-                                        columnNumber: 31
-                                    }, this),
-                                    ". Graduating Dec '22."
-                                ]
-                            }, void 0, true, {
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "profile",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: logo,
+                                alt: "Dev",
+                                className: "portrait"
+                            }, void 0, false, {
                                 fileName: "src/js/App.js",
                                 lineNumber: 19,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: [
-                                    "My research interest is in ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
-                                        children: "natural language processing"
-                                    }, void 0, false, {
-                                        fileName: "src/js/App.js",
-                                        lineNumber: 20,
-                                        columnNumber: 52
-                                    }, this),
-                                    ", especially the differences in human and machine cognition of language. I am interested in how we can work collaboratively with machines."
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/js/App.js",
-                                lineNumber: 20,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: [
-                                    "My advisor is ",
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Link, {
-                                        text: "Bhuwan Dhingra",
-                                        href: "https://users.cs.duke.edu/~bdhingra/"
-                                    }, void 0, false, {
-                                        fileName: "src/js/App.js",
-                                        lineNumber: 21,
-                                        columnNumber: 39
-                                    }, this),
-                                    " at the Duke NLP group."
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/js/App.js",
-                                lineNumber: 21,
-                                columnNumber: 21
+                                columnNumber: 25
                             }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/js/App.js",
-                        lineNumber: 17,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
+                        }, void 0, false, {
+                            fileName: "src/js/App.js",
+                            lineNumber: 18,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/App.js",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 15,
+                lineNumber: 11,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                        children: "Travel Things:"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "things",
+                children: (0, _dataDefault.default).map((element, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
+                        title: element["title"],
+                        expanded: expanded === index,
+                        onClick: ()=>setExpanded(expanded === index ? -1 : index),
+                        children: element["content"]
                     }, void 0, false, {
                         fileName: "src/js/App.js",
                         lineNumber: 25,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
-                        className: "map",
-                        src: "https://www.google.com/maps/d/u/1/embed?mid=1tCQAoqHOTlCBsCJsQyWEszxX-pWjWsS6&ehbc=2E312F"
-                    }, void 0, false, {
-                        fileName: "src/js/App.js",
-                        lineNumber: 26,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
+                        columnNumber: 21
+                    }, this))
+            }, void 0, false, {
                 fileName: "src/js/App.js",
-                lineNumber: 24,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                        children: "Contact Things:"
-                    }, void 0, false, {
-                        fileName: "src/js/App.js",
-                        lineNumber: 29,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "dev (dot) seth (at) duke (dot) edu"
-                        }, void 0, false, {
-                            fileName: "src/js/App.js",
-                            lineNumber: 31,
-                            columnNumber: 21
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/js/App.js",
-                        lineNumber: 30,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/js/App.js",
-                lineNumber: 28,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                        children: "More Things:"
-                    }, void 0, false, {
-                        fileName: "src/js/App.js",
-                        lineNumber: 35,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: "Coming Soon"
-                        }, void 0, false, {
-                            fileName: "src/js/App.js",
-                            lineNumber: 37,
-                            columnNumber: 21
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/js/App.js",
-                        lineNumber: 36,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/js/App.js",
-                lineNumber: 34,
+                lineNumber: 23,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/js/App.js",
-        lineNumber: 6,
+        lineNumber: 10,
         columnNumber: 9
     }, this);
 }
 exports.default = App;
+_s(App, "kMt+1ZMyQsB/7UE7ubNG1mmkV3A=");
 _c = App;
-function Link({ text , href  }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-        href: href,
-        children: text
-    }, void 0, false, {
-        fileName: "src/js/App.js",
-        lineNumber: 54,
-        columnNumber: 9
-    }, this);
-}
-_c1 = Link;
-function Box({ children  }) {
+function Box({ title , expanded , onClick , children  }) {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "box",
-        children: children
-    }, void 0, false, {
+        className: expanded ? "box expanded" : "box",
+        onClick: onClick,
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: title
+            }, void 0, false, {
+                fileName: "src/js/App.js",
+                lineNumber: 41,
+                columnNumber: 13
+            }, this),
+            expanded && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "boxchild",
+                children: children
+            }, void 0, false, {
+                fileName: "src/js/App.js",
+                lineNumber: 45,
+                columnNumber: 17
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "src/js/App.js",
-        lineNumber: 60,
+        lineNumber: 38,
         columnNumber: 9
     }, this);
 }
-_c2 = Box;
-var _c, _c1, _c2;
+_c1 = Box;
+var _c, _c1;
 $RefreshReg$(_c, "App");
-$RefreshReg$(_c1, "Link");
-$RefreshReg$(_c2, "Box");
+$RefreshReg$(_c1, "Box");
 
   $parcel$ReactRefreshHelpers$90b2.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","27955ae781fd42a9":"gmENJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gmENJ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","f31f6cde231a8104":"gmENJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./data":"eGxxE"}],"gmENJ":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "1.62e19b7e.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -27434,6 +27296,205 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}]},["1xC6H","1RB6v","8lqZg"], "8lqZg", "parcelRequiree8da")
+},{"react-refresh/runtime":"786KC"}],"eGxxE":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$fa0e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$fa0e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _link = require("./Link");
+var _linkDefault = parcelHelpers.interopDefault(_link);
+exports.default = elements = [
+    {
+        "title": "Academic",
+        "content": /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: [
+                        "I'm studying abroad at ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                            children: "U. of Oxford"
+                        }, void 0, false, {
+                            fileName: "src/js/data.jsx",
+                            lineNumber: 8,
+                            columnNumber: 44
+                        }, undefined),
+                        ", doing CompSci + Philosophy."
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/data.jsx",
+                    lineNumber: 8,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: [
+                        "I'm a ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                            children: "senior at Duke"
+                        }, void 0, false, {
+                            fileName: "src/js/data.jsx",
+                            lineNumber: 9,
+                            columnNumber: 27
+                        }, undefined),
+                        ", graduating Dec '22."
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/data.jsx",
+                    lineNumber: 9,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: [
+                        "My research interest is in ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                            children: "natural language processing"
+                        }, void 0, false, {
+                            fileName: "src/js/data.jsx",
+                            lineNumber: 10,
+                            columnNumber: 48
+                        }, undefined),
+                        ", especially the differences in human and machine cognition of language. I am also interested in how we can work collaboratively with machines."
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/data.jsx",
+                    lineNumber: 10,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: [
+                        "My advisor is ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _linkDefault.default), {
+                            text: "Bhuwan Dhingra",
+                            href: "https://users.cs.duke.edu/~bdhingra/"
+                        }, void 0, false, {
+                            fileName: "src/js/data.jsx",
+                            lineNumber: 11,
+                            columnNumber: 35
+                        }, undefined),
+                        " at the Duke NLP group."
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/data.jsx",
+                    lineNumber: 11,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                            children: "Look on my Works, ye Mighty, and despair!"
+                        }, void 0, false, {
+                            fileName: "src/js/data.jsx",
+                            lineNumber: 12,
+                            columnNumber: 21
+                        }, undefined),
+                        " ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _linkDefault.default), {
+                            text: "Google Scholar",
+                            href: "https://scholar.google.com/citations?user=STRJkvgAAAAJ"
+                        }, void 0, false, {
+                            fileName: "src/js/data.jsx",
+                            lineNumber: 12,
+                            columnNumber: 70
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/js/data.jsx",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/js/data.jsx",
+            lineNumber: 7,
+            columnNumber: 13
+        }, undefined)
+    },
+    {
+        "title": "Travel",
+        "content": /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+            className: "map",
+            src: "https://www.google.com/maps/d/u/1/embed?mid=1tCQAoqHOTlCBsCJsQyWEszxX-pWjWsS6&ehbc=2E312F"
+        }, void 0, false, {
+            fileName: "src/js/data.jsx",
+            lineNumber: 18,
+            columnNumber: 13
+        }, undefined)
+    },
+    {
+        "title": "Contact",
+        "content": /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                children: "dev (dot) seth (at) duke (dot) edu"
+            }, void 0, false, {
+                fileName: "src/js/data.jsx",
+                lineNumber: 24,
+                columnNumber: 17
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/js/data.jsx",
+            lineNumber: 23,
+            columnNumber: 13
+        }, undefined)
+    },
+    {
+        "title": "More",
+        "content": /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                children: "Coming Soon"
+            }, void 0, false, {
+                fileName: "src/js/data.jsx",
+                lineNumber: 31,
+                columnNumber: 17
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/js/data.jsx",
+            lineNumber: 30,
+            columnNumber: 13
+        }, undefined)
+    }
+];
+
+  $parcel$ReactRefreshHelpers$fa0e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","./Link":"1Iqjy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1Iqjy":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8c8c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8c8c.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function Link({ text , href  }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+        href: href,
+        children: text
+    }, void 0, false, {
+        fileName: "src/js/Link.js",
+        lineNumber: 5,
+        columnNumber: 9
+    }, this);
+}
+exports.default = Link;
+_c = Link;
+var _c;
+$RefreshReg$(_c, "Link");
+
+  $parcel$ReactRefreshHelpers$8c8c.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["1xC6H","1RB6v","8lqZg"], "8lqZg", "parcelRequiree8da")
 
 //# sourceMappingURL=index.975ef6c8.js.map

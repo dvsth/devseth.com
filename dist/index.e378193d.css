@@ -9,7 +9,6 @@ body {
   margin: 0;
   padding: 10px;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-size: 1vmin;
   line-height: 1.7;
 }
 
@@ -25,8 +24,9 @@ b {
 
 .App {
   box-sizing: content-box;
+  width: 100%;
   flex-flow: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   display: flex;
 }
@@ -40,24 +40,43 @@ b {
 
 .box {
   width: 100%;
-  height: 100%;
   box-sizing: border-box;
-  max-width: 500px;
-  max-height: 700px;
+  max-width: 600px;
   text-align: left;
   color: #26374b;
-  max-width: 600px;
   background-color: #fff;
-  border-radius: 10px;
-  margin: 20px;
+  border: 1px solid #26374b;
+  border-radius: 20px;
+  flex-flow: column;
+  margin: 10px;
   padding: 20px;
-  box-shadow: 0 0 10px #0000001a;
+  transition: all .3s ease-out;
+  display: flex;
+  position: relative;
+}
+
+.box h3 {
+  cursor: pointer;
+  margin: 0;
+}
+
+.box:hover {
+  background-color: #26374b;
+  color: #fff !important;
+}
+
+.box:hover a {
+  transition: all .3s ease-out;
+  color: #fff !important;
 }
 
 .box.introbox {
-  max-width: min(500px, 90vw - 20px);
+  box-shadow: none;
   height: auto;
+  border-radius: 40px;
   padding: 20px 0 0;
+  top: 0;
+  overflow: hidden;
 }
 
 .box.introbox .portrait {
@@ -67,6 +86,24 @@ b {
 .box .map {
   width: 100%;
   height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.things {
+  flex-flow: column;
+  flex: 40%;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.intro-container {
+  flex-flow: column;
+  flex: 40%;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
 }
 
 @keyframes rotate {
@@ -94,26 +131,6 @@ b {
 .wave {
   animation: rotate 2s ease-in-out infinite alternate;
   display: inline-block;
-}
-
-@media screen and (max-width: 500px) {
-  .box {
-    font-size: calc(3em + 1vmin);
-  }
-
-  .intro {
-    font-size: calc(1.5em + 1vmin);
-  }
-}
-
-@media screen and (min-width: 501px) {
-  .box {
-    font-size: calc(1em + 1vmin);
-  }
-
-  .intro {
-    font-size: calc(1.5em + 1vmin);
-  }
 }
 
 /*# sourceMappingURL=index.e378193d.css.map */
