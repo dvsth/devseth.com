@@ -26979,7 +26979,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _data = require("./data");
-var _dataDefault = parcelHelpers.interopDefault(_data);
 var _s = $RefreshSig$();
 const logo = new URL(require("f31f6cde231a8104"));
 function App() {
@@ -27047,7 +27046,7 @@ function App() {
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "things",
-                children: (0, _dataDefault.default).map((element, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
+                children: (0, _data.elements).map((element, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Box, {
                         title: element["title"],
                         expanded: expanded === index,
                         onClick: ()=>setExpanded(expanded === index ? -1 : index),
@@ -27305,10 +27304,11 @@ $parcel$ReactRefreshHelpers$fa0e.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "elements", ()=>elements);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _link = require("./Link");
 var _linkDefault = parcelHelpers.interopDefault(_link);
-exports.default = elements = [
+const elements = [
     {
         "title": "Academic",
         "content": /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
