@@ -1,5 +1,5 @@
 import React from 'react';
-import elements from './data'
+import { elements } from './data'
 const logo = new URL('../assets/1.png', import.meta.url);
 
 export default function App() {

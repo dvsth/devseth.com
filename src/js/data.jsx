@@ -1,6 +1,6 @@
 import Link from './Link'
 
-export default elements = [
+export const elements = [
     {
         'title': 'Academic',
         'content':
