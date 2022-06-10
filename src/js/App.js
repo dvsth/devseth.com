@@ -1,6 +1,6 @@
 import React from 'react';
-const logo = new URL('../assets/1.png', import.meta.url);
 import elements from './data'
+const logo = new URL('../assets/1.png', import.meta.url);
 
 export default function App() {
 
