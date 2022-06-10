@@ -15,6 +15,7 @@ body {
 a {
   font-weight: 600;
   text-decoration: none;
+  transition: all .3s ease-out;
   color: #26374b !important;
 }
 
@@ -31,17 +32,11 @@ b {
   display: flex;
 }
 
-.intro {
-  text-align: center;
-  color: #26374b;
-  margin-bottom: 15px;
-  font-weight: 800;
-}
-
 .box {
   width: 100%;
   box-sizing: border-box;
   max-width: 600px;
+  min-width: max(300px, 90vw);
   text-align: left;
   color: #26374b;
   background-color: #fff;
@@ -60,19 +55,11 @@ b {
   margin: 0;
 }
 
-.box:hover {
-  background-color: #26374b;
-  color: #fff !important;
-}
-
-.box:hover a {
-  transition: all .3s ease-out;
-  color: #fff !important;
-}
-
 .box.introbox {
   box-shadow: none;
   height: auto;
+  user-select: none;
+  border-width: 3px;
   border-radius: 40px;
   padding: 20px 0 0;
   top: 0;
@@ -83,6 +70,13 @@ b {
   width: 100%;
 }
 
+.box.introbox .intro {
+  color: #26374b;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
 .box .map {
   width: 100%;
   height: 300px;
@@ -90,19 +84,11 @@ b {
   margin-top: 10px;
 }
 
-.things {
+.things, .intro-container {
   flex-flow: column;
   flex: 40%;
   justify-content: center;
-  align-items: flex-start;
-  display: flex;
-}
-
-.intro-container {
-  flex-flow: column;
-  flex: 40%;
-  justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   display: flex;
 }
 
@@ -131,6 +117,20 @@ b {
 .wave {
   animation: rotate 2s ease-in-out infinite alternate;
   display: inline-block;
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
 }
 
 /*# sourceMappingURL=index.e378193d.css.map */
