@@ -35,8 +35,8 @@ b {
 .box {
   width: 100%;
   box-sizing: border-box;
+  min-width: 300px;
   max-width: 600px;
-  min-width: max(300px, 90vw);
   text-align: left;
   color: #26374b;
   background-color: #fff;

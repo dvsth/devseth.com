@@ -42,8 +42,8 @@ b {
     box-sizing: border-box;
     background-color: #ffffff;
     border-radius: 20px;
+    min-width: 300px;
     max-width: 600px;
-    min-width: calc(max(300px, 90vw));
     position: relative;
     text-align: left;
     // font-weight: 400;
