@@ -31,7 +31,6 @@ export const elements = [
                 <li>Coming Soon</li>
             </ul>
     }
-
 ];
 
 {/* <ul>

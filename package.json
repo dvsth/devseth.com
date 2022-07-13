@@ -5,6 +5,7 @@
   "author": "Dev Seth <devseth@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@lowell-nordic/rsswidget": "^2.0.1",
     "parcel": "^2.6.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
